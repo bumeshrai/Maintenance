@@ -49,10 +49,10 @@ public class AssetDecipherActivity extends AppCompatActivity {
         tvLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent userIntent = new Intent(AssetDecipherActivity.this, UserActivity.class);
+               /* Intent userIntent = new Intent(AssetDecipherActivity.this, UserActivity.class);
                 userIntent.putExtra("latitude", latitude); // Saved values returned
                 userIntent.putExtra("longitude", longitude);
-                AssetDecipherActivity.this.startActivity(userIntent);
+                AssetDecipherActivity.this.startActivity(userIntent);*/
                 finish();
             }
         });
